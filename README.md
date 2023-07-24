@@ -21,10 +21,8 @@ $> git clone https://github.com/amitgupta7/aws-tf-rds.git
 $> cd aws-tf-rds
 $> source tfAlias
 $> tf init 
-## provision infra for pods provide EXISTING resource group name,
-## azure subscription-id and vm-password on prompt
+## provision infra in us-west-1 by default,
+## access_key and secret_key on prompt
 $> tfaa 
-## to de-provision provide EXISTING resource group name, 
-## azure subscription-id and vm-password on prompt 
-## EXACTLY SAME VALUES AS PROVIDED DURING PROVISIONING
+## access_key and secret_key on prompt
 $> tfda
